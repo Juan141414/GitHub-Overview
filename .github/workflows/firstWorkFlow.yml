@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: firstJob script
-      shell: cmd
+      shell: bash
       run: echo Hellow World! This is the firts job
     - name: Checkout
       uses: actions/checkout@v5.0.0
