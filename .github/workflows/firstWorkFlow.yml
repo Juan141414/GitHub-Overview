@@ -1,0 +1,22 @@
+name: first workflow
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  firstjob:
+    runs-on: self-hosted
+    steps:
+    - name: firstJob script
+      shell: cmd
+      run: echo Hellow World! This is the firts job
+
+  secondjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: secondJob script
+      shell: bash
+      run: |
+        echo this is the second job
+        echo and this is a mulyi-line script
+  
