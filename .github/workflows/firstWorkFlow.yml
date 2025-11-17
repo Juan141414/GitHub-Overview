@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: secondJob script
-          shell: bash
-          run: |
-            echo this is the second job
-            echo and this is a mulyi-line script
+        shell: bash
+        run: |
+          echo this is the second job
+          echo and this is a mulyi-line script
   
