@@ -11,7 +11,7 @@ jobs:
       shell: cmd
       run: echo Hellow World! This is the firts job
     - name: checkout
-      uses: actions/checkout@v5.0.0
+      uses: actions/checkout@v3
     - name: greetings
       id: greetings
       uses: actions/hello-world-javascript-action@main
